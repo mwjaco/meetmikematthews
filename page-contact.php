@@ -34,7 +34,7 @@
                 <div class="modal-fade-screen">
                     <div class="modal-inner">
                         <div class="modal-close" for="modal-1"></div>
-                        <a href="pdf/mike_resume.pdf" target="_blank"><img src="img/mike_resume.png"></a>
+                        <a><img src="<?php the_field('resume_png'); ?>"></a>
                     </div>
                 </div>                                                             
 			</div>

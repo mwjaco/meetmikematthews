@@ -826,10 +826,12 @@ nav {
       nav ul li:last-of-type:after {
         content: "";
         margin-left: 0; }
-      nav ul li.menu-active {
+      nav ul li.menu-active,
+      nav ul li.current-menu-item {
         font-weight: bold;
         color: #fff; }
-        nav ul li.menu-active a:hover {
+        nav ul li.menu-active a:hover,
+        nav ul li.current-menu-item  a:hover {
           color: inherit;
           cursor: default; }
       nav ul li a {
@@ -1140,3 +1142,11 @@ div.chevron {
       .loader .loader-icon > div:nth-child(3) {
         -webkit-animation: ball-pulse-sync .6s .21s infinite ease-in-out;
         animation: ball-pulse-sync .6s .21s infinite ease-in-out; }
+
+div.video-wrapper {
+  background-repeat: no-repeat;
+  background-position: -9999px -9999px;
+}
+.contact .modal-inner {
+  height: 100%;
+}
